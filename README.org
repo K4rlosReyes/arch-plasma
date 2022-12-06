@@ -144,11 +144,7 @@ grub-mkconfig -o /boot/grub/grub.cfg
 * Qtile Installation
 We install our Xorg server and the Plasma Desktpo, we also install a few useful tools.
 #+begin_src bash
-<<<<<<< HEAD
 pacman -S xorg git alacritty flameshot mpv emacs ark discord ntfs-3g obsidian openssh openssl stunnel telegram-desktop unzip zsh yt-dlp plasma-desktop bluedevil breeze-gtk kde-gtk-config kscreen plasma-firewall plasma-nm plasma-pa plasma-systemmonitor plasma-workspace-wallpapers powerdevil sddm-kcm xdg-desktop-portal-kde breeze-grub okular
-=======
-pacman -S xorg git alacritty flameshot mpv emacs qtile qtile-extras-git ranger arandr ark bluez bluez-utils brightnessctl discord dmenu dunst htop ntfs-3g obsidian openssh openssl playerctl pipewire pipewire-alsa pipewire-pulse pipewire-jack stunnel telegram-desktop thunar unzip xorg-xinit zsh yt-dlp 
->>>>>>> 991b7b6725e5dd55b52d0968b95766880662e8fb
 #+end_src
 * Post install
 Make sure NetworkManager, SDDM and bluetooth are enabled
